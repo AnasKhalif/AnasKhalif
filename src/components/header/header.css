@@ -1,9 +1,5 @@
 .header {
     width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: var(--z-fixed);
     background-color: var(--body-color);
 }
 
@@ -12,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    column-gap: 1rem;
+    column-gap: 0 1rem;
 }
 
 .nav__logo,
@@ -24,7 +20,6 @@
 .nav__list {
     display: flex;
     column-gap: 2rem;
-
 }
 
 .nav__link {
@@ -46,13 +41,13 @@
 .active-link,
 .nav__link:hover {
     color: var(--title-color-dark);
-
 }
 
 @media screen and (max-width: 768px) {
     .header {
-        top: initial;
-        bottom: 0;
+        top: 0;
+        bottom: initial;
+        z-index: 1000; /* Ensure the header has a high z-index */
     }
 
     .nav {
@@ -61,34 +56,52 @@
 
     .nav__menu {
         position: fixed;
-        bottom: -100%;
-        left: 0;
-        width: 100%;
+        top: 0;
+        right: -100%;
+        height: 100vh; /* Ensure it covers the full viewport height */
+        width: 100vw; /* Ensure it covers the full viewport width */
         background-color: var(--body-color);
-        padding: 2rem 1.5rem 4rem;
-        box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 1.5rem 1.5rem 0 0;
-        transition: .3s;
+        padding: 2rem 1.5rem;
+        box-shadow: -1px 0 4px rgba(0, 0, 0, 0.15);
+        transition: right .3s;
+        overflow-y: auto; /* Handle overflow */
+        border-radius: 0;
+        z-index: 999; /* Ensure the menu is on top of other elements */
     }
 
     .show-menu {
-        bottom: 0;
+        right: 0;
     }
 
     .nav__list {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 2rem;
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+        justify-items: center; /* Center items horizontally */
+    }
+
+    .nav__link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; /* Center items vertically */
+        font-size: var(--small-font-size);
+        color: var(--title-color);
+        font-weight: var(--font-medium);
+        transition: .3s;
+        padding: 0.5rem 0; /* Add padding to ensure visibility */
+        width: 100%; /* Ensure the link takes the full width */
     }
 
     .nav__icon {
         font-size: 1.2rem;
+        margin-bottom: 0.5rem; /* Add margin to separate icon from text */
     }
 
     .nav__close {
         position: absolute;
         right: 1.3rem;
-        bottom: .5rem;
+        top: 1rem;
         font-size: 1.5rem;
         cursor: pointer;
         color: var(--title-color);
@@ -99,8 +112,11 @@
     }
 
     .nav__toggle {
-        font-size: 1.1rem;
+        font-size: 1.5rem; /* Increase icon size for better visibility */
         cursor: pointer;
+        display: block; /* Ensure toggle is displayed */
+        position: absolute;
+        right: 1rem; /* Add some right margin */
     }
 
     .nav__icon,
@@ -111,11 +127,11 @@
 }
 
 @media screen and (max-width: 350px) {
-  .nav__menu {
-    padding: 2rem 0.25rem 4rem;
-  }
+    .nav__menu {
+        padding: 2rem 0.25rem;
+    }
 
-  .nav__list {
-    column-gap: 0;
-  }
+    .nav__list {
+        row-gap: 1rem;
+    }
 }
