@@ -56,9 +56,9 @@ const Data = () => {
         </svg>
       </h1>
 
-      <h3 className="home__subtitle">Full-Stack Developer</h3>
+      <h3 className="home__subtitle">Full-Stack Developer🎯</h3>
       <p className="home__description">
-        Hi, I'm Anas Khalif. A passionate Full Stack Developer based in Kediri,
+        Hi, I'm Anas Khalif. A passionate Full-Stack Developer based in Kediri,
         Indonesia. 📍
       </p>
     </div>
