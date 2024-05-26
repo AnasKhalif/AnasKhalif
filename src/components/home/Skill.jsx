@@ -1,4 +1,5 @@
 import React from "react";
+import CI from "../../assets/ci.jpeg";
 
 function Skill() {
   return (
@@ -25,7 +26,7 @@ function Skill() {
             <img src="https://skillicons.dev/icons?i=php,mysql" alt="" />
           </li>
           <li>
-            <img src="https://skillicons.dev/icons?i=laravel,laravel" alt="" />
+            <img src={CI} alt="CodeIgniter and Laravel" />
           </li>
           <li>
             <img src="https://skillicons.dev/icons?i=github,gitlab" alt="" />
