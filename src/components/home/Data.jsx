@@ -56,11 +56,19 @@ const Data = () => {
         </svg>
       </h1>
 
-      <h3 className="home__subtitle">Full-Stack Developer </h3>
+      <h3 className="home__subtitle">Full-Stack Developer 🎯</h3>
       <p className="home__description">
         Hi, I'm Anas Khalif. A passionate Full-Stack Developer based in Kediri,
         Indonesia. 📍
       </p>
+      <div className="home__social">
+        <a href="#" className="home__social-icon" target="_blank">
+          <i className="uil uil-linkedin"></i>
+        </a>
+        <a href="#" className="home__social-icon" target="_blank">
+          <i className="uil uil-github-alt"></i>
+        </a>
+      </div>
     </div>
   );
 };

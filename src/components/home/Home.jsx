@@ -1,6 +1,7 @@
 import React from "react";
 import "./home.css";
 import Data from "./Data";
+import Skill from "./Skill";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
 
           <Data />
         </div>
+        <Skill />
       </div>
     </section>
   );
