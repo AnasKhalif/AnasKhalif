@@ -62,10 +62,18 @@ const Data = () => {
         Indonesia. 📍
       </p>
       <div className="home__social">
-        <a href="#" className="home__social-icon" target="_blank">
-          <i className="uil uil-linkedin"></i>
+        <a
+          href="https://www.linkedin.com/in/anas-khalif-muttaqien-529587271/"
+          className="home__social-icon"
+          target="_blank"
+        >
+          <i className="uil uil-linkedin linkedin"></i>
         </a>
-        <a href="#" className="home__social-icon" target="_blank">
+        <a
+          href="https://github.com/AnasKhalif"
+          className="home__social-icon"
+          target="_blank"
+        >
           <i className="uil uil-github-alt"></i>
         </a>
       </div>

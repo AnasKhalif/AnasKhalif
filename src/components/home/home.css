@@ -52,14 +52,24 @@
     margin-top: 1rem; /* Add some space above the social icons */
 }
 
-.home__social-icon {
+/* .home__social-icon {
     font-size: 1.25rem;
     color: var(--title-color);
 }
 
 .home__social-icon:hover {
     color: var(--title-color-dark);
+} */
+
+.home__social-icon {
+    font-size: 1.5rem; /* Meningkatkan ukuran dari 1.25rem ke 1.5rem */
+    color: var(--title-color);
 }
+
+.home__social-icon:hover {
+    color: var(--title-color-dark);
+}
+
 
 .home__title {
     font-size: var(--big-font-size);
@@ -185,6 +195,10 @@
     .logo ul li:hover {
         transform: translateY(-5px);
     }
+
+    .home__social-icon {
+        font-size: 1.5rem; /* Meningkatkan ukuran dari 1.25rem ke 1.5rem */
+    }
 }
 
 
@@ -215,6 +229,10 @@
     .logo ul li:hover {
         transform: translateY(-5px);
     }
+
+    .home__social-icon {
+        font-size: 1.75rem; /* Meningkatkan ukuran lebih besar untuk layar yang lebih kecil */
+    }
 }
 
   
@@ -244,5 +262,8 @@
 
     .logo ul li:hover {
         transform: translateY(-5px);
+    }
+    .home__social-icon {
+        font-size: 2rem; /* Meningkatkan ukuran lebih besar untuk layar yang sangat kecil */
     }
   }
