@@ -14,7 +14,7 @@ function Skill() {
             <img src="https://skillicons.dev/icons?i=js,react" alt="" />
           </li>
           <li>
-            <img src="https://skillicons.dev/icons?i=jquery,npm" alt="" />
+            <img src="https://skillicons.dev/icons?i=figma,sass" alt="" />
           </li>
           <li>
             <img

@@ -1,6 +1,6 @@
 .home__content {
     grid-template-columns: repeat(2, 1fr);
-    padding-top: 5.5rem;
+    padding-top: 7.7rem;
     column-gap: 2rem;
     align-items: center;
 }
@@ -11,6 +11,8 @@
     align-items: center; /* Center items horizontally */
     justify-content: center; /* Center items vertically */
     gap: 1rem; /* Adjust the gap between flex items */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .skill h3 {
