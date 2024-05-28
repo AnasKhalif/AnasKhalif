@@ -2,7 +2,16 @@ import React, { useState } from "react";
 import "./header.css";
 
 const Header = () => {
-  const [Toggle, showMenu] = useState(false);
+  const [toggle, setToggle] = useState(false);
+
+  const toggleMenu = () => {
+    setToggle(!toggle);
+  };
+
+  const closeMenu = () => {
+    setToggle(false);
+  };
+
   return (
     <header className="header">
       <nav className="nav container">
@@ -10,40 +19,41 @@ const Header = () => {
           AnasKhalif.dev
         </a>
 
-        <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
+        <div className={toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">
             <li className="nav__item">
-              <a href="#home" className="nav__link active-link">
+              <a
+                href="#home"
+                className="nav__link active-link"
+                onClick={closeMenu}
+              >
                 <i className="uil uil-estate nav__icon"></i> Home
               </a>
             </li>
 
             <li className="nav__item">
-              <a href="#about" className="nav__link">
+              <a href="#about" className="nav__link" onClick={closeMenu}>
                 <i className="uil uil-user nav__icon"></i> About
               </a>
             </li>
 
             <li className="nav__item">
-              <a href="#portofolio" className="nav__link">
+              <a href="#portofolio" className="nav__link" onClick={closeMenu}>
                 <i className="uil uil-scenery nav__icon"></i> Project
               </a>
             </li>
 
             <li className="nav__item">
-              <a href="#contact" className="nav__link">
+              <a href="#contact" className="nav__link" onClick={closeMenu}>
                 <i className="uil uil-message nav__icon"></i> Contact
               </a>
             </li>
           </ul>
 
-          <i
-            className="uil uil-times nav__close"
-            onClick={() => showMenu(!Toggle)}
-          ></i>
+          <i className="uil uil-times nav__close" onClick={toggleMenu}></i>
         </div>
 
-        <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
+        <div className="nav__toggle" onClick={toggleMenu}>
           <i className="uil uil-bars"></i>
         </div>
       </nav>
