@@ -1,6 +1,8 @@
 import React from "react";
 import "./about.css";
 import Abouting from "../../assets/about1.jpg";
+import Fullstack from "../../assets/fullstack.png";
+import Memoji from "../../assets/memoji1.mp4";
 
 function About() {
   return (
@@ -9,7 +11,15 @@ function About() {
       <span className="section__subtitle">My Introduction</span>
 
       <div className="about__container container grid">
-        <img src={Abouting} alt="" className="about__img" />
+        <div className="img__side">
+          <video muted loop autoPlay className="memoji">
+            <source src={Memoji} type="video/mp4" />
+          </video>
+          <img src={Abouting} alt="" className="about__img" />
+          <span>
+            <img src={Fullstack} alt="" />
+          </span>
+        </div>
 
         <div className="about__data">
           <h4>Call Me Anas</h4>
