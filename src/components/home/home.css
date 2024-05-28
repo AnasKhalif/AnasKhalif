@@ -5,6 +5,10 @@
     align-items: center;
 }
 
+.home__section {
+    background-color: #f9f9f9;
+}
+
 .skill {
     display: flex;
     flex-direction: column; /* Change to row if you want items side by side */
@@ -12,7 +16,7 @@
     justify-content: center; /* Center items vertically */
     gap: 1rem; /* Adjust the gap between flex items */
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 7rem;
 }
 
 .skill h3 {
@@ -268,4 +272,8 @@
     .home__social-icon {
         font-size: 2rem; /* Meningkatkan ukuran lebih besar untuk layar yang sangat kecil */
     }
+
+    /* .home__section {
+        padding-top: 2rem;
+    } */
   }

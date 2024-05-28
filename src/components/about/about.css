@@ -1,3 +1,9 @@
+.about__section {
+    padding-top: 7rem;
+    padding-bottom: 20rem;
+    background-color: #fff;
+}
+
 .about__container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -10,10 +16,6 @@
     font-size: 2rem;
     line-height: 1.4;
     margin-bottom: 1rem;
-}
-
-.about__section {
-    padding: 10rem 0;
 }
 
 .about__img {
