@@ -58,8 +58,8 @@ const Data = () => {
 
       <h3 className="home__subtitle">Full-Stack Developer 🎯</h3>
       <p className="home__description">
-        Hi, I'm Anas Khalif. A passionate Full-Stack Developer based in Kediri,
-        Indonesia. 📍
+        Hi, I'm Anas Khalif. A passionate Full-Stack Web Developer based in
+        Kediri, Indonesia. 📍
       </p>
       <div className="home__social">
         <a
