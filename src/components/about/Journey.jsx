@@ -85,6 +85,13 @@ const Journey = () => {
             }
           >
             <div className="journey__data">
+              <div></div>
+
+              <div>
+                <span className="journey__rounder"></span>
+                <span className="journey__line"></span>
+              </div>
+
               <div>
                 <h3 className="journey__title">Full - Stack Web Developer</h3>
                 <span className="journey__subtitle">
@@ -92,6 +99,16 @@ const Journey = () => {
                 </span>
                 <div className="journey__calender">
                   <i className="uil uil-calendar-alt"></i> Maret 2024 - Now
+                </div>
+              </div>
+            </div>
+
+            <div className="journey__data">
+              <div>
+                <h3 className="journey__title">Full - Stack Web Developer</h3>
+                <span className="journey__subtitle">CV. Punden Tani</span>
+                <div className="journey__calender">
+                  <i className="uil uil-calendar-alt"></i> 4 Months
                 </div>
               </div>
 
@@ -110,26 +127,11 @@ const Journey = () => {
               </div>
 
               <div>
-                <h3 className="journey__title">Full - Stack Web Developer</h3>
-                <span className="journey__subtitle">Kios Punden Tani</span>
-                <div className="journey__calender">
-                  <i className="uil uil-calendar-alt"></i> 4 Months
-                </div>
-              </div>
-            </div>
-
-            <div className="journey__data">
-              <div>
                 <h3 className="journey__title">Data Entry</h3>
-                <span className="journey__subtitle">Kios Punden Tani</span>
+                <span className="journey__subtitle">CV. Punden Tani</span>
                 <div className="journey__calender">
                   <i className="uil uil-calendar-alt"></i> 2 months
                 </div>
-              </div>
-
-              <div>
-                <span className="journey__rounder"></span>
-                <span className="journey__line"></span>
               </div>
             </div>
           </div>

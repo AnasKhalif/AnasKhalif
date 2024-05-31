@@ -83,12 +83,15 @@
 
 .journey__container {
     max-width: 768px;
+    margin: 0 auto; /* Tambahan baru */
 }
+
 
 .journey__tabs {
     display: flex;
     justify-content: center;
     margin-bottom: var(--mb-2);
+    gap: 1rem;
 }
 
 .journey__button {
@@ -114,7 +117,7 @@
 
 .journey__sections {
     display: grid;
-    grid-template-columns: 0.5fr;
+    grid-template-columns: initial;
     justify-content: center;
 }
 
@@ -187,8 +190,10 @@
 @media screen and (max-width: 900px) {
 
     .journey__container {
-        margin-left: auto;
+        margin-left: auto; /* Tambahan baru */
+        margin-right: auto; /* Tambahan baru */
     }
+    
 
     .memoji {
         display: none;
@@ -227,8 +232,8 @@
 @media screen and (max-width: 768px) {
 
     .journey__container {
-        margin-left: var(--mb-1-5);
-        margin-right: var(--mb-1-5);
+        margin-left: auto; /* Tambahan baru */
+        margin-right: auto; /* Tambahan baru */
     }
 
     .about__section {
@@ -251,8 +256,17 @@
 
 @media screen and (max-width: 576px) {
 
+    .journey__content {
+        padding-left: 30px;
+        padding-right: 15px;
+    }
+
     .journey__sections {
         grid-template-columns: initial;
+    }
+
+    .journey__button {
+        font-size: 0.85rem;
     }
 
     .journey__button {
