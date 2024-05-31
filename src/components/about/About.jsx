@@ -3,6 +3,7 @@ import "./about.css";
 import Abouting from "../../assets/about1.jpg";
 import Fullstack from "../../assets/fullstack.png";
 import Memoji from "../../assets/memoji1.mp4";
+import Journey from "./Journey";
 
 function About() {
   return (
@@ -60,6 +61,7 @@ function About() {
           </a>
         </div>
       </div>
+      <Journey />
     </section>
   );
 }
