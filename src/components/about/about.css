@@ -1,6 +1,6 @@
 .about__section {
     padding-top: 7rem;
-    padding-bottom: 20rem;
+    padding-bottom: 7rem;
     background-color: #fff;
 }
 
@@ -103,7 +103,7 @@
 }
 
 .journey__button:hover {
-    color: var(--title-color-dark);
+    color: #147efb;
 }
 
 .journey__icon {
