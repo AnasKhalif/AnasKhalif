@@ -6,7 +6,7 @@ import Project3 from "../../assets/coba3.png";
 
 const Project = () => {
   return (
-    <section className="project">
+    <section className="project" id="project">
       <div className="container-default">
         <h2 className="section__title">Projects</h2>
         <span className="section__subtitle">
@@ -54,6 +54,75 @@ const Project = () => {
                 </div>
                 <div className="stack">
                   <p className="platform__title">Laravel</p>
+                  <p className="platform__subtitle">Tech stack</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="project__section">
+            <img src={Project3} alt="" className="project__img" />
+            <div className="project__transition">
+              <div className="project__deskription">
+                <h4>Smandak Learning</h4>
+                <p>
+                  A thesis project that builds a mobile-based online learning
+                  information system at SMAN 1 Cibadak.
+                </p>
+              </div>
+              <div className="project__tech">
+                <div className="platform">
+                  <p className="platform__title">Mobile</p>
+                  <p className="platform__subtitle">Platform based</p>
+                </div>
+                <div className="stack">
+                  <p className="platform__title">React</p>
+                  <p className="platform__subtitle">Tech stack</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="project__section">
+            <img src={Project3} alt="" className="project__img" />
+            <div className="project__transition">
+              <div className="project__deskription">
+                <h4>Smandak Learning</h4>
+                <p>
+                  A thesis project that builds a mobile-based online learning
+                  information system at SMAN 1 Cibadak.
+                </p>
+              </div>
+              <div className="project__tech">
+                <div className="platform">
+                  <p className="platform__title">Mobile</p>
+                  <p className="platform__subtitle">Platform based</p>
+                </div>
+                <div className="stack">
+                  <p className="platform__title">React</p>
+                  <p className="platform__subtitle">Tech stack</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="project__section">
+            <img src={Project3} alt="" className="project__img" />
+            <div className="project__transition">
+              <div className="project__deskription">
+                <h4>Smandak Learning</h4>
+                <p>
+                  A thesis project that builds a mobile-based online learning
+                  information system at SMAN 1 Cibadak.
+                </p>
+              </div>
+              <div className="project__tech">
+                <div className="platform">
+                  <p className="platform__title">Mobile</p>
+                  <p className="platform__subtitle">Platform based</p>
+                </div>
+                <div className="stack">
+                  <p className="platform__title">React</p>
                   <p className="platform__subtitle">Tech stack</p>
                 </div>
               </div>
