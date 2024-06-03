@@ -28,3 +28,50 @@ footer h3 {
     color: #fff;
     font-size: 1.2rem;
 }
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .footers {
+        flex-direction: column;
+        align-items: center; /* Centering content */
+        text-align: center;
+    }
+    
+    .footer__social {
+        margin-top: 1rem;
+        gap: .5rem; /* Reduce gap for smaller screens */
+    }
+
+    footer h3 {
+        margin-bottom: 0.5rem; /* Add space between elements */
+        font-size: 0.9rem; /* Reduce font size for smaller screens */
+    }
+
+    .footer__social a {
+        font-size: 1rem; /* Adjust icon size for smaller screens */
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .footers {
+        padding: 0 1rem; /* Add padding for smaller screens */
+    }
+    
+    footer h3 {
+        font-size: 0.8rem; /* Further reduce font size for smaller screens */
+    }
+
+    .footer__social a {
+        font-size: 0.9rem; /* Further reduce icon size for smaller screens */
+    }
+}
+
+@media screen and (max-width: 350px) {
+    footer h3 {
+        font-size: 0.7rem; /* Adjust text size for very small screens */
+    }
+
+    .footer__social a {
+        font-size: 0.8rem; /* Adjust icon size for very small screens */
+    }
+}
