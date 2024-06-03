@@ -1,0 +1,30 @@
+footer {
+    background-color: #2d2e32;
+    padding: 1.2rem 0;
+    width: 100%;
+}
+
+.footers {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h3 {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.footer__social {
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+
+.footer__social a {
+    color: #fff;
+    font-size: 1.2rem;
+}

@@ -64,4 +64,21 @@
     text-decoration: none;
 }
 
+@media (max-width: 750px) {
+    .contact__icons {
+        flex-direction: column;
+        gap: 1.5rem;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contact__title {
+        text-align: center;
+    }
+
+    .contact__icon-box {
+        flex-direction: column;
+    }
+}
+
 
