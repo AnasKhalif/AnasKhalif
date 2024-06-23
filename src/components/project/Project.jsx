@@ -1,8 +1,11 @@
 import React from "react";
 import "./project.css";
-import Project1 from "../../assets/coba1.png";
-import Project2 from "../../assets/coba2.png";
-import Project3 from "../../assets/coba3.png";
+import Netflix from "../../assets/Netflix-Api.png";
+import VetForHealth_Company from "../../assets/VetForHealth_Company.png";
+import SiAkad from "../../assets/Si-Akad.png";
+import StokBarang from "../../assets/StokBarang.png";
+import CoffeKasir from "../../assets/CoffeKasir.png";
+import VetForHealth from "../../assets/VetForHealth.png";
 
 const Project = () => {
   return (
@@ -15,13 +18,13 @@ const Project = () => {
 
         <div className="project__content grid">
           <div className="project__section">
-            <img src={Project1} alt="" className="project__img" />
+            <img src={VetForHealth_Company} alt="" className="project__img" />
             <div className="project__transition">
               <div className="project__deskription">
-                <h4>Bizlook</h4>
+                <h4>VetForHealth Company</h4>
                 <p>
-                  Team project while joining the 1000 start-up digital event, in
-                  building a service product marketplace platform.
+                  building a company profile website i implementation from the
+                  UI/UX design team.
                 </p>
               </div>
               <div className="project__tech">
@@ -30,7 +33,7 @@ const Project = () => {
                   <p className="platform__subtitle">Platform based</p>
                 </div>
                 <div className="stack">
-                  <p className="platform__title">React.js</p>
+                  <p className="platform__title">Bootstrap</p>
                   <p className="platform__subtitle">Tech stack</p>
                 </div>
               </div>
@@ -38,13 +41,14 @@ const Project = () => {
           </div>
 
           <div className="project__section">
-            <img src={Project2} alt="" className="project__img" />
+            <img src={VetForHealth} alt="" className="project__img" />
             <div className="project__transition">
               <div className="project__deskription">
-                <h4>Kreasijabar</h4>
+                <h4>VetForHealth Sisfo</h4>
                 <p>
-                  A freelancer project that improves the KREASI West Java
-                  Creative Economy Actor web features.
+                  project to build an information system for animal data
+                  collection, milk analysis and health analysis recap at Dinas
+                  Peternakan Batu Kab.Malang.
                 </p>
               </div>
               <div className="project__tech">
@@ -53,7 +57,7 @@ const Project = () => {
                   <p className="platform__subtitle">Platform based</p>
                 </div>
                 <div className="stack">
-                  <p className="platform__title">Laravel</p>
+                  <p className="platform__title">CodeIgniter</p>
                   <p className="platform__subtitle">Tech stack</p>
                 </div>
               </div>
@@ -61,18 +65,18 @@ const Project = () => {
           </div>
 
           <div className="project__section">
-            <img src={Project3} alt="" className="project__img" />
+            <img src={Netflix} alt="" className="project__img" />
             <div className="project__transition">
               <div className="project__deskription">
-                <h4>Smandak Learning</h4>
+                <h4>Netflix-Api</h4>
                 <p>
-                  A thesis project that builds a mobile-based online learning
-                  information system at SMAN 1 Cibadak.
+                  Netflix-APi project exercises using react based on themoviedb
+                  API.
                 </p>
               </div>
               <div className="project__tech">
                 <div className="platform">
-                  <p className="platform__title">Mobile</p>
+                  <p className="platform__title">Web</p>
                   <p className="platform__subtitle">Platform based</p>
                 </div>
                 <div className="stack">
@@ -84,22 +88,22 @@ const Project = () => {
           </div>
 
           <div className="project__section">
-            <img src={Project3} alt="" className="project__img" />
+            <img src={CoffeKasir} alt="" className="project__img" />
             <div className="project__transition">
               <div className="project__deskription">
-                <h4>Smandak Learning</h4>
+                <h4>CoffeKasir</h4>
                 <p>
-                  A thesis project that builds a mobile-based online learning
-                  information system at SMAN 1 Cibadak.
+                  Project-based learning assignment 2 cafe cashier PHP
+                  programming language semester 2 Brawijaya University.
                 </p>
               </div>
               <div className="project__tech">
                 <div className="platform">
-                  <p className="platform__title">Mobile</p>
+                  <p className="platform__title">Web</p>
                   <p className="platform__subtitle">Platform based</p>
                 </div>
                 <div className="stack">
-                  <p className="platform__title">React</p>
+                  <p className="platform__title">PHP</p>
                   <p className="platform__subtitle">Tech stack</p>
                 </div>
               </div>
@@ -107,22 +111,22 @@ const Project = () => {
           </div>
 
           <div className="project__section">
-            <img src={Project3} alt="" className="project__img" />
+            <img src={StokBarang} alt="" className="project__img" />
             <div className="project__transition">
               <div className="project__deskription">
-                <h4>Smandak Learning</h4>
+                <h4>Si-StokBarang</h4>
                 <p>
-                  A thesis project that builds a mobile-based online learning
-                  information system at SMAN 1 Cibadak.
+                  Freelance project to build a stock information system at
+                  Punden Tani.
                 </p>
               </div>
               <div className="project__tech">
                 <div className="platform">
-                  <p className="platform__title">Mobile</p>
+                  <p className="platform__title">Web</p>
                   <p className="platform__subtitle">Platform based</p>
                 </div>
                 <div className="stack">
-                  <p className="platform__title">React</p>
+                  <p className="platform__title">PHP</p>
                   <p className="platform__subtitle">Tech stack</p>
                 </div>
               </div>
@@ -130,22 +134,22 @@ const Project = () => {
           </div>
 
           <div className="project__section">
-            <img src={Project3} alt="" className="project__img" />
+            <img src={SiAkad} alt="" className="project__img" />
             <div className="project__transition">
               <div className="project__deskription">
-                <h4>Smandak Learning</h4>
+                <h4>Si-Akad</h4>
                 <p>
-                  A thesis project that builds a mobile-based online learning
-                  information system at SMAN 1 Cibadak.
+                  project exercise to build an academic information system,
+                  lecture case study.
                 </p>
               </div>
               <div className="project__tech">
                 <div className="platform">
-                  <p className="platform__title">Mobile</p>
+                  <p className="platform__title">Web</p>
                   <p className="platform__subtitle">Platform based</p>
                 </div>
                 <div className="stack">
-                  <p className="platform__title">React</p>
+                  <p className="platform__title">CodeIgniter</p>
                   <p className="platform__subtitle">Tech stack</p>
                 </div>
               </div>
