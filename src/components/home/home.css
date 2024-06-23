@@ -11,10 +11,10 @@
 
 .skill {
     display: flex;
-    flex-direction: column; /* Change to row if you want items side by side */
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Center items vertically */
-    gap: 1rem; /* Adjust the gap between flex items */
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center; 
+    gap: 1rem;
     padding-top: 2rem;
     padding-bottom: 7rem;
 }
@@ -29,10 +29,10 @@
 
 .logo {
     display: flex;
-    flex-direction: row; /* Change to column if you want items stacked */
-    align-items: center; /* Center items vertically */
-    justify-content: center; /* Center items horizontally */
-    gap: 1rem; /* Adjust the gap between flex items */
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 1rem; 
 }
 
 .logo ul {
@@ -54,21 +54,12 @@
 .home__social {
     display: flex;
     column-gap: 1rem;
-    justify-content: flex-start; /* Adjust this if you need alignment */
-    margin-top: 1rem; /* Add some space above the social icons */
+    justify-content: flex-start; 
+    margin-top: 1rem;
 }
-
-/* .home__social-icon {
-    font-size: 1.25rem;
-    color: var(--title-color);
-}
-
-.home__social-icon:hover {
-    color: var(--title-color-dark);
-} */
 
 .home__social-icon {
-    font-size: 1.5rem; /* Meningkatkan ukuran dari 1.25rem ke 1.5rem */
+    font-size: 1.5rem; 
     color: var(--title-color);
 }
 
@@ -208,7 +199,7 @@
     }
 
     .home__social-icon {
-        font-size: 1.5rem; /* Meningkatkan ukuran dari 1.25rem ke 1.5rem */
+        font-size: 1.5rem; 
     }
 }
 
@@ -235,14 +226,14 @@
         width: 200px;
         height: 200px;
         display: block;
-        margin: 0 auto; /* Center horizontally */
+        margin: 0 auto; 
     }
 
     .home__img-container {
         display: flex;
-        justify-content: center; /* Center horizontally */
-        align-items: center; /* Center vertically */
-        height: 100%; /* Adjust as needed */
+        justify-content: center; 
+        align-items: center; 
+        height: 100%; 
     }
 
     .logo ul li {
@@ -254,7 +245,7 @@
     }
 
     .home__social-icon {
-        font-size: 1.75rem; /* Meningkatkan ukuran lebih besar untuk layar yang lebih kecil */
+        font-size: 1.75rem; 
     }
 }
 
@@ -291,7 +282,7 @@
         transform: translateY(-5px);
     }
     .home__social-icon {
-        font-size: 2rem; /* Meningkatkan ukuran lebih besar untuk layar yang sangat kecil */
+        font-size: 2rem;
     }
 
   }

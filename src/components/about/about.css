@@ -74,16 +74,13 @@
 
 
 
-
-
-/*Styling Journey*/
 .journey {
     padding-top: 6rem;
 }
 
 .journey__container {
     max-width: 768px;
-    margin: 0 auto; /* Tambahan baru */
+    margin: 0 auto;
 }
 
 
