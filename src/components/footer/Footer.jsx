@@ -11,7 +11,7 @@ const Footer = () => {
             aria-label="linkedin"
             target="_blank"
             rel="noreferrer"
-            href="https://www.linkedin.com/in/anas-khalif-muttaqien-529587271/"
+            href="https://www.linkedin.com/in/anaskhalifmuttaqien/"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

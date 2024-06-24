@@ -28,8 +28,8 @@ function About() {
 
           <p className="about__description">
             I am a Full-Stack Web Developer who has work experience as a
-            professional Back-End engineer, and a Full-Stack web developer for
-            more than 2 years.
+            professional Back-End Web Developer, and a Full-Stack web developer
+            for more than 2 years.
           </p>
 
           <a download="" href={CV} className="button button--flex">

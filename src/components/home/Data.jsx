@@ -63,7 +63,7 @@ const Data = () => {
       </p>
       <div className="home__social">
         <a
-          href="https://www.linkedin.com/in/anas-khalif-muttaqien-529587271/"
+          href="https://www.linkedin.com/in/anaskhalifmuttaqien/"
           className="home__social-icon"
           target="_blank"
         >
