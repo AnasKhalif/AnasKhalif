@@ -4,6 +4,7 @@ import Abouting from "../../assets/about1.jpg";
 import Fullstack from "../../assets/fullstack.png";
 import Memoji from "../../assets/memoji1.mp4";
 import Journey from "./Journey";
+import CV from "../../assets/AnasKhalifMuttaqien-resume.pdf";
 
 function About() {
   return (
@@ -28,10 +29,10 @@ function About() {
           <p className="about__description">
             I am a Full-Stack Web Developer who has work experience as a
             professional Back-End engineer, and a Full-Stack web developer for
-            more than 3 years.
+            more than 2 years.
           </p>
 
-          <a href="#" className="button button--flex">
+          <a download="" href={CV} className="button button--flex">
             Download CV
             <svg
               class="button__icon"
