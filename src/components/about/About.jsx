@@ -4,7 +4,7 @@ import Abouting from "../../assets/about1.jpg";
 import Fullstack from "../../assets/fullstack.png";
 import Memoji from "../../assets/memoji1.mp4";
 import Journey from "./Journey";
-import CV from "../../assets/AnasKhalifMuttaqien-resume.pdf";
+import CV from "../../assets/Anas-Khalif-Muttaqien.pdf";
 
 function About() {
   return (
